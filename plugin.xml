@@ -11,13 +11,13 @@
 
     <asset src="www/clearnotification.js" target="js/clearnotification.js"/>
 
-    <js-module src="www/clearnotification.js" name="hello">
-        <clobbers target="hello"/>
+    <js-module src="www/clearnotification.js" name="clearnotification">
+        <clobbers target="clearnotification"/>
     </js-module>
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Hello">
+            <feature name="Clearnotification">
                 <param name="android-package" value="info.entom.plugin.Clearnotification"/>
             </feature>
         </config-file>
@@ -26,11 +26,11 @@
 
     <platform name="ios">
         <config-file target="config.xml" parent="/widget">
-            <feature name="Hello">
-                <param name="ios-package" value="HWPHello"/>
+            <feature name="Clearnotification">
+                <param name="ios-package" value="Clearnotification"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
-        <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
+        <header-file src="src/ios/Clearnotification.h" target-dir="Clearnotification"/>
+        <source-file src="src/ios/Clearnotification.m" target-dir="Clearnotification"/>
     </platform>
 </plugin>

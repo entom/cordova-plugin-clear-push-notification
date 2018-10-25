@@ -1,4 +1,4 @@
-package com.example.plugin;
+package info.entom.plugin;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
@@ -10,7 +10,7 @@ public class Clearnotification extends CordovaPlugin {
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
 
         if (action.equals("clear")) {
-            String name = data.getString(0);
+            String id = data.getString(0);
             String message = "Id = " + id;
             callbackContext.success(message);
 
