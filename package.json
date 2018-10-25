@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-clear-push-notification",
+  "version": "0.1.0",
+  "description": "Clear Push Notification",
+  "cordova": {
+    "id": "cordova-plugin-clear-push-notification",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entom/cordova-plugin-clear-push-notification.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Tomasz Nicieja",
+  "bugs": {
+    "url": "https://github.com/entom/cordova-plugin-clear-push-notification/issues"
+  },
+  "homepage": "https://github.com/entom/cordova-plugin-clear-push-notification#readme"
+}
